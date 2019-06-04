@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C108E1622A6C5C200EEA09C /* turtlerock.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0C108E1522A6C5C200EEA09C /* turtlerock.jpg */; };
+		0C108E1822A6C61B00EEA09C /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C108E1722A6C61B00EEA09C /* SwiftUIView.swift */; };
 		0CF2131B22A5C0CE00EDAB6C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2131A22A5C0CE00EDAB6C /* AppDelegate.swift */; };
 		0CF2131D22A5C0CE00EDAB6C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2131C22A5C0CE00EDAB6C /* SceneDelegate.swift */; };
 		0CF2131F22A5C0CE00EDAB6C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF2131E22A5C0CE00EDAB6C /* ContentView.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0C108E1522A6C5C200EEA09C /* turtlerock.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = turtlerock.jpg; sourceTree = "<group>"; };
+		0C108E1722A6C61B00EEA09C /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
 		0CF2131722A5C0CE00EDAB6C /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF2131A22A5C0CE00EDAB6C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0CF2131C22A5C0CE00EDAB6C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,10 +60,12 @@
 		0CF2131922A5C0CE00EDAB6C /* Landmarks */ = {
 			isa = PBXGroup;
 			children = (
+				0C108E1522A6C5C200EEA09C /* turtlerock.jpg */,
 				0CF2131A22A5C0CE00EDAB6C /* AppDelegate.swift */,
 				0CF2131C22A5C0CE00EDAB6C /* SceneDelegate.swift */,
 				0CF2131E22A5C0CE00EDAB6C /* ContentView.swift */,
 				0CF2132022A5C0CF00EDAB6C /* Assets.xcassets */,
+				0C108E1722A6C61B00EEA09C /* SwiftUIView.swift */,
 				0CF2132522A5C0CF00EDAB6C /* LaunchScreen.storyboard */,
 				0CF2132822A5C0CF00EDAB6C /* Info.plist */,
 				0CF2132222A5C0CF00EDAB6C /* Preview Content */,
@@ -133,6 +139,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C108E1622A6C5C200EEA09C /* turtlerock.jpg in Resources */,
 				0CF2132722A5C0CF00EDAB6C /* LaunchScreen.storyboard in Resources */,
 				0CF2132422A5C0CF00EDAB6C /* Preview Assets.xcassets in Resources */,
 				0CF2132122A5C0CF00EDAB6C /* Assets.xcassets in Resources */,
@@ -148,6 +155,7 @@
 			files = (
 				0CF2131B22A5C0CE00EDAB6C /* AppDelegate.swift in Sources */,
 				0CF2131D22A5C0CE00EDAB6C /* SceneDelegate.swift in Sources */,
+				0C108E1822A6C61B00EEA09C /* SwiftUIView.swift in Sources */,
 				0CF2131F22A5C0CE00EDAB6C /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

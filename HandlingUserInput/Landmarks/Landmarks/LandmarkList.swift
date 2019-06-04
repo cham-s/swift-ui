@@ -18,7 +18,6 @@ struct LandmarkList: View {
                     Text("Favorites only")
                 }
                 ForEach(userData.landmarks) { landmark in
-                    
                     if !self.userData.showFavoritesOnly || landmark.isFavorite {
                         NavigationButton(destination: LandmarkDetail(landmark: landmark)) {
                             LandmarkRow(landmark: landmark)
@@ -36,9 +35,6 @@ struct LandmarkList_Previews: PreviewProvider {
     static var previews: some View {
         LandmarkList()
         .environmentObject(UserData())
-        
-        
-        
     }
 }
 #endif

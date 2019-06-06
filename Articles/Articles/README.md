@@ -1,4 +1,4 @@
 #  Article
 
-source: https://wwdcbysundell.com/2019/swiftui-first-look/
+Inspiration: https://developer.apple.com/tutorials/swiftui/building-lists-and-navigation
 

@@ -10,9 +10,9 @@ import Foundation
 import SwiftUI
 
 struct Article: Hashable, Codable, Identifiable {
-    let id: Int
-    let preview: String
-    let article: String
-    let date: Date
-    let imageName: String
+    var id: Int
+    var preview: String
+    var article: String
+    var date: Date
+    var imageName: String
 }

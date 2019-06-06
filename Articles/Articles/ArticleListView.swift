@@ -12,7 +12,10 @@ struct ArticleListView : View {
     var body: some View {
         NavigationView {
             List(articleData) { article in
+                NavigationButton(destination: ArticleDetail(article: article)) {
                     ArticleRow(article: article)
+                }
+
             }
         }
         .navigationBarTitle(Text("Articles"))

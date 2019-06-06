@@ -5,6 +5,7 @@
 //  Created by chams on 06/06/2019.
 //  Copyright © 2019 Chams. All rights reserved.
 //
+// source: https://wwdcbysundell.com/2019/swiftui-first-look/
 
 import SwiftUI
 

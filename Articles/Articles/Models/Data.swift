@@ -15,7 +15,7 @@
 import UIKit
 import SwiftUI
 
-let articleData: [Article] = Loader.load("articlesData.json")
+let articleData: [Article] = Loader.load("articleData.json")
 
 struct Loader {
     static func load<T: Decodable>(_ filename: String, as type: T.Type = T.self) -> T {

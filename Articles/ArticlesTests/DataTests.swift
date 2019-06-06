@@ -28,8 +28,6 @@ class DataTests: XCTestCase {
         
         XCTAssertEqual(articles[0].id, 1002)
         XCTAssertEqual(articles.count, 4)
-        
-        
     }
 
     func testPerformanceExample() {

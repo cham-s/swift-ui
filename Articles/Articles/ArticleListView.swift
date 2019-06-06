@@ -9,9 +9,13 @@
 import SwiftUI
 
 struct ArticleListView : View {
-    
     var body: some View {
-        Text("Hello, world!")
+        NavigationView {
+            List(articleData) { article in
+                    ArticleRow(article: article)
+            }
+        }
+        .navigationBarTitle(Text("Articles"))
     }
 }
 

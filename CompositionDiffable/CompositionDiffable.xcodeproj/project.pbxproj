@@ -105,13 +105,7 @@
 		0CA69C3622AAE096009EBF8D /* CompositionDiffable */ = {
 			isa = PBXGroup;
 			children = (
-				0CA69C3722AAE096009EBF8D /* AppDelegate.swift */,
-				0CA69C3922AAE096009EBF8D /* SceneDelegate.swift */,
-				0CA69C3B22AAE096009EBF8D /* ViewController.swift */,
-				0CA69C3D22AAE096009EBF8D /* Main.storyboard */,
-				0CA69C4022AAE097009EBF8D /* Assets.xcassets */,
-				0CA69C4222AAE097009EBF8D /* LaunchScreen.storyboard */,
-				0CA69C4522AAE097009EBF8D /* Info.plist */,
+				0CA69C6C22AAF6D8009EBF8D /* Compositional Layout */,
 			);
 			path = CompositionDiffable;
 			sourceTree = "<group>";
@@ -140,6 +134,20 @@
 				0CA69C6822AAE0F8009EBF8D /* LICENSE.txt */,
 			);
 			path = LICENSE;
+			sourceTree = "<group>";
+		};
+		0CA69C6C22AAF6D8009EBF8D /* Compositional Layout */ = {
+			isa = PBXGroup;
+			children = (
+				0CA69C3722AAE096009EBF8D /* AppDelegate.swift */,
+				0CA69C3922AAE096009EBF8D /* SceneDelegate.swift */,
+				0CA69C3B22AAE096009EBF8D /* ViewController.swift */,
+				0CA69C3D22AAE096009EBF8D /* Main.storyboard */,
+				0CA69C4022AAE097009EBF8D /* Assets.xcassets */,
+				0CA69C4222AAE097009EBF8D /* LaunchScreen.storyboard */,
+				0CA69C4522AAE097009EBF8D /* Info.plist */,
+			);
+			path = "Compositional Layout";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

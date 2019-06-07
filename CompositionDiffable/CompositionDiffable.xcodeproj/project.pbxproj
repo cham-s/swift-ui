@@ -15,6 +15,8 @@
 		0CA69C4422AAE097009EBF8D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA69C4222AAE097009EBF8D /* LaunchScreen.storyboard */; };
 		0CA69C4F22AAE098009EBF8D /* CompositionDiffableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA69C4E22AAE098009EBF8D /* CompositionDiffableTests.swift */; };
 		0CA69C5A22AAE098009EBF8D /* CompositionDiffableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA69C5922AAE098009EBF8D /* CompositionDiffableUITests.swift */; };
+		0CA69C6922AAE0F8009EBF8D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CA69C6822AAE0F8009EBF8D /* LICENSE.txt */; };
+		0CA69C6B22AAE11A009EBF8D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0CA69C6A22AAE11A009EBF8D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0CA69C5522AAE098009EBF8D /* CompositionDiffableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CompositionDiffableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CA69C5922AAE098009EBF8D /* CompositionDiffableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompositionDiffableUITests.swift; sourceTree = "<group>"; };
 		0CA69C5B22AAE098009EBF8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CA69C6822AAE0F8009EBF8D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
+		0CA69C6A22AAE11A009EBF8D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,10 +83,12 @@
 		0CA69C2B22AAE096009EBF8D = {
 			isa = PBXGroup;
 			children = (
+				0CA69C6A22AAE11A009EBF8D /* README.md */,
 				0CA69C3622AAE096009EBF8D /* CompositionDiffable */,
 				0CA69C4D22AAE098009EBF8D /* CompositionDiffableTests */,
 				0CA69C5822AAE098009EBF8D /* CompositionDiffableUITests */,
 				0CA69C3522AAE096009EBF8D /* Products */,
+				0CA69C6722AAE0F8009EBF8D /* LICENSE */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +132,14 @@
 				0CA69C5B22AAE098009EBF8D /* Info.plist */,
 			);
 			path = CompositionDiffableUITests;
+			sourceTree = "<group>";
+		};
+		0CA69C6722AAE0F8009EBF8D /* LICENSE */ = {
+			isa = PBXGroup;
+			children = (
+				0CA69C6822AAE0F8009EBF8D /* LICENSE.txt */,
+			);
+			path = LICENSE;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0CA69C6922AAE0F8009EBF8D /* LICENSE.txt in Resources */,
 				0CA69C4422AAE097009EBF8D /* LaunchScreen.storyboard in Resources */,
+				0CA69C6B22AAE11A009EBF8D /* README.md in Resources */,
 				0CA69C4122AAE097009EBF8D /* Assets.xcassets in Resources */,
 				0CA69C3F22AAE096009EBF8D /* Main.storyboard in Resources */,
 			);

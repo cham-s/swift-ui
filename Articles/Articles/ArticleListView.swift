@@ -15,7 +15,6 @@ struct ArticleListView : View {
                 NavigationButton(destination: ArticleDetail(article: article)) {
                     ArticleRow(article: article)
                 }
-
             }
         }
         .navigationBarTitle(Text("Articles"))

@@ -107,6 +107,7 @@
 		0CA69C3622AAE096009EBF8D /* CompositionDiffable */ = {
 			isa = PBXGroup;
 			children = (
+				0CA69C3722AAE096009EBF8D /* AppDelegate.swift */,
 				0CA69C6C22AAF6D8009EBF8D /* Compositional Layout */,
 			);
 			path = CompositionDiffable;
@@ -141,7 +142,6 @@
 		0CA69C6C22AAF6D8009EBF8D /* Compositional Layout */ = {
 			isa = PBXGroup;
 			children = (
-				0CA69C3722AAE096009EBF8D /* AppDelegate.swift */,
 				0CA69C3922AAE096009EBF8D /* SceneDelegate.swift */,
 				0CA69C3B22AAE096009EBF8D /* OutlineViewController.swift */,
 				0CA69C3D22AAE096009EBF8D /* Main.storyboard */,
@@ -464,7 +464,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JD3J5GCV9C;
-				INFOPLIST_FILE = CompositionDiffable/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CompositionDiffable/Compositional Layout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -482,7 +482,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = JD3J5GCV9C;
-				INFOPLIST_FILE = CompositionDiffable/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/CompositionDiffable/Compositional Layout/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

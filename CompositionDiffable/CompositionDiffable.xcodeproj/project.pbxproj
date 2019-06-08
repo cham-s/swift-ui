@@ -18,6 +18,8 @@
 		0CA69C6922AAE0F8009EBF8D /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 0CA69C6822AAE0F8009EBF8D /* LICENSE.txt */; };
 		0CA69C6B22AAE11A009EBF8D /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 0CA69C6A22AAE11A009EBF8D /* README.md */; };
 		0CA69C6E22AB056C009EBF8D /* OutlineItemCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA69C6D22AB056C009EBF8D /* OutlineItemCellCollectionViewCell.swift */; };
+		0CAF1B3222ABF58A00BC889B /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF1B3122ABF58A00BC889B /* ListViewController.swift */; };
+		0CAF1B3522ABF85F00BC889B /* ListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CAF1B3422ABF85E00BC889B /* ListCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		0CA69C6822AAE0F8009EBF8D /* LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE.txt; sourceTree = "<group>"; };
 		0CA69C6A22AAE11A009EBF8D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0CA69C6D22AB056C009EBF8D /* OutlineItemCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutlineItemCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		0CAF1B3122ABF58A00BC889B /* ListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		0CAF1B3422ABF85E00BC889B /* ListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +90,8 @@
 			isa = PBXGroup;
 			children = (
 				0CA69C6A22AAE11A009EBF8D /* README.md */,
+				0CAF1B3322ABF82600BC889B /* Cells And Supplementary Views */,
+				0CAF1B3022ABF54A00BC889B /* Basics View Controllers */,
 				0CA69C3622AAE096009EBF8D /* CompositionDiffable */,
 				0CA69C4D22AAE098009EBF8D /* CompositionDiffableTests */,
 				0CA69C5822AAE098009EBF8D /* CompositionDiffableUITests */,
@@ -151,6 +157,22 @@
 				0CA69C6D22AB056C009EBF8D /* OutlineItemCellCollectionViewCell.swift */,
 			);
 			path = "Compositional Layout";
+			sourceTree = "<group>";
+		};
+		0CAF1B3022ABF54A00BC889B /* Basics View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0CAF1B3122ABF58A00BC889B /* ListViewController.swift */,
+			);
+			path = "Basics View Controllers";
+			sourceTree = "<group>";
+		};
+		0CAF1B3322ABF82600BC889B /* Cells And Supplementary Views */ = {
+			isa = PBXGroup;
+			children = (
+				0CAF1B3422ABF85E00BC889B /* ListCell.swift */,
+			);
+			path = "Cells And Supplementary Views";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -289,6 +311,8 @@
 				0CA69C6E22AB056C009EBF8D /* OutlineItemCellCollectionViewCell.swift in Sources */,
 				0CA69C3C22AAE096009EBF8D /* OutlineViewController.swift in Sources */,
 				0CA69C3822AAE096009EBF8D /* AppDelegate.swift in Sources */,
+				0CAF1B3522ABF85F00BC889B /* ListCell.swift in Sources */,
+				0CAF1B3222ABF58A00BC889B /* ListViewController.swift in Sources */,
 				0CA69C3A22AAE096009EBF8D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

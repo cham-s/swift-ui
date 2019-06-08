@@ -68,7 +68,7 @@ class OutlineViewController: UIViewController {
         return [
             OutlineItem(title: "Compositional Layout", indentLevel: 0, subitems: [
                 OutlineItem(title: "Getting Started", indentLevel: 1, subitems: [
-                    OutlineItem(title: "List", indentLevel: 2),
+                    OutlineItem(title: "List", indentLevel: 2, viewController: ListViewController.self),
                     OutlineItem(title: "Grid", indentLevel: 2),
                     OutlineItem(title: "Inset Item Grid", indentLevel: 2),
                     OutlineItem(title: "Two-Column Grid", indentLevel: 2),

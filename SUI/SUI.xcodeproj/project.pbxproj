@@ -14,6 +14,8 @@
 		0CA1B56F22AD58D4002A8FB8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CA1B56E22AD58D4002A8FB8 /* Preview Assets.xcassets */; };
 		0CA1B57222AD58D4002A8FB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CA1B57022AD58D4002A8FB8 /* LaunchScreen.storyboard */; };
 		0CA1B57A22AD58EE002A8FB8 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 0CA1B57922AD58EE002A8FB8 /* LICENSE */; };
+		0CA1B57D22AD5E24002A8FB8 /* TextFieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CA1B57C22AD5E24002A8FB8 /* TextFieldView.swift */; };
+		0CBF078222AD654600E2A966 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBF078122AD654600E2A966 /* TextView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		0CA1B57322AD58D4002A8FB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0CA1B57922AD58EE002A8FB8 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0CA1B57B22AD5913002A8FB8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		0CA1B57C22AD5E24002A8FB8 /* TextFieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldView.swift; sourceTree = "<group>"; };
+		0CBF078122AD654600E2A966 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				0CA1B56D22AD58D4002A8FB8 /* Preview Content */,
 				0CA1B57922AD58EE002A8FB8 /* LICENSE */,
 				0CA1B57B22AD5913002A8FB8 /* README.md */,
+				0CA1B57C22AD5E24002A8FB8 /* TextFieldView.swift */,
+				0CBF078122AD654600E2A966 /* TextView.swift */,
 			);
 			path = SUI;
 			sourceTree = "<group>";
@@ -154,7 +160,9 @@
 			files = (
 				0CA1B56622AD58D4002A8FB8 /* AppDelegate.swift in Sources */,
 				0CA1B56822AD58D4002A8FB8 /* SceneDelegate.swift in Sources */,
+				0CA1B57D22AD5E24002A8FB8 /* TextFieldView.swift in Sources */,
 				0CA1B56A22AD58D4002A8FB8 /* ContentView.swift in Sources */,
+				0CBF078222AD654600E2A966 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,8 +9,12 @@
 import SwiftUI
 
 struct ContentView : View {
+    @State var name: String = ""
+    let placeHolder = Text("Enter name here")
+    @State var endEditing = false
+    
     var body: some View {
-        Text("Hello World")
+       Text("Hello, World")
     }
 }
 

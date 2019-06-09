@@ -11,6 +11,12 @@ import SwiftUI
 struct TutorialView : View {
     var tutorial: Tutorial
     var body: some View {
+        if tutorial.title == "Text" {
+            return TextView()
+        }
+        if tutorial.title == "TexTField" {
+            return TextView()
+        }
         return TextView()
     }
 }

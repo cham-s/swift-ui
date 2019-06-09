@@ -14,15 +14,15 @@ struct ListView : View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(storage.tutorials) { tutorial in
-                    NavigationButton(destination: TutorialView(tutorial: tutorial)) {
-                        Text(tutorial.title)
-                    }
+                NavigationButton(destination: TextView()) {
+                    Text("TextView")
+                }
+                NavigationButton(destination: TextFieldView()) {
+                    Text("TextField")
                 }
             }
             .navigationBarTitle(Text("Tutorials"))
         }
-        
     }
 }
 

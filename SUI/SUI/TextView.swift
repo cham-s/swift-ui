@@ -10,12 +10,12 @@ import SwiftUI
 
 struct TextView : View {
     var body: some View {
-        
             Text("SwiftUI")
                 .color(.orange)
                 .bold()
                 .font(.system(.largeTitle))
                 .fontWeight(.medium)
+        
     }
 }
 

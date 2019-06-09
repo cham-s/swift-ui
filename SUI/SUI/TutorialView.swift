@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TutorialView.swift
 //  SUI
 //
 //  Created by chams on 09/06/2019.
@@ -8,17 +8,17 @@
 
 import SwiftUI
 
-struct ContentView : View {
-    
+struct TutorialView : View {
+    var tutorial: Tutorial
     var body: some View {
-        Text("Hellow, world")
+        return TextView()
     }
 }
 
 #if DEBUG
-struct ContentView_Previews : PreviewProvider {
+struct TutorialView_Previews : PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TutorialView(tutorial: tutorialData[0])
     }
 }
 #endif

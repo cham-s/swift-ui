@@ -9,17 +9,23 @@
 import SwiftUI
 
 struct ListView : View {
-    @EnvironmentObject private var storage: TutorialStorage
     
     var body: some View {
         NavigationView {
             List {
                 NavigationButton(destination: TextView()) {
-                    Text("TextView")
+                    Text("Text")
                 }
                 NavigationButton(destination: TextFieldView()) {
                     Text("TextField")
                 }
+                NavigationButton(destination: ImageView()) {
+                    Text("Image")
+                }
+                NavigationButton(destination: WebImage()) {
+                    Text("Web Image")
+                }
+
             }
             .navigationBarTitle(Text("SwiftUI Tutorials"))
         }
@@ -29,7 +35,7 @@ struct ListView : View {
 #if DEBUG
 struct ListView_Previews : PreviewProvider {
     static var previews: some View {
-        ListView().environmentObject(TutorialStorage())
+        ListView()
     }
 }
 #endif

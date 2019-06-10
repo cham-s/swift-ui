@@ -23,6 +23,7 @@ struct ImageView : View {
                 }
             })
         }
+            .navigationBarTitle(Text("Image View"))
     }
 }
 

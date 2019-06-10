@@ -25,6 +25,13 @@ struct ListView : View {
                 NavigationButton(destination: WebImage()) {
                     Text("Web Image")
                 }
+                NavigationButton(destination: ButtonView()) {
+                    Text("Button")
+                }
+                NavigationButton(destination: NavigationButtonView()) {
+                    Text("Navigation Button")
+                }
+
 
             }
             .navigationBarTitle(Text("SwiftUI Tutorials"))

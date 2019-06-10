@@ -23,6 +23,8 @@
 		0CBF078C22AD81D800E2A966 /* TutorialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CBF078B22AD81D800E2A966 /* TutorialView.swift */; };
 		0CE3FD4C22AEC89700B203CF /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3FD4B22AEC89700B203CF /* ImageView.swift */; };
 		0CE3FD4E22AED31100B203CF /* WebImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3FD4D22AED31100B203CF /* WebImage.swift */; };
+		0CE3FD5022AEDC6300B203CF /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3FD4F22AEDC6300B203CF /* Button.swift */; };
+		0CE3FD5222AEE2A600B203CF /* NavigationButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CE3FD5122AEE2A600B203CF /* NavigationButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		0CBF078B22AD81D800E2A966 /* TutorialView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TutorialView.swift; path = SUI/TutorialView.swift; sourceTree = "<group>"; };
 		0CE3FD4B22AEC89700B203CF /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ImageView.swift; path = SUI/ImageView.swift; sourceTree = "<group>"; };
 		0CE3FD4D22AED31100B203CF /* WebImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = WebImage.swift; path = SUI/WebImage.swift; sourceTree = "<group>"; };
+		0CE3FD4F22AEDC6300B203CF /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Button.swift; path = SUI/Button.swift; sourceTree = "<group>"; };
+		0CE3FD5122AEE2A600B203CF /* NavigationButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NavigationButtonView.swift; path = SUI/NavigationButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +65,8 @@
 		0CA1B55922AD58D4002A8FB8 = {
 			isa = PBXGroup;
 			children = (
+				0CE3FD4F22AEDC6300B203CF /* Button.swift */,
+				0CE3FD5122AEE2A600B203CF /* NavigationButtonView.swift */,
 				0CE3FD4B22AEC89700B203CF /* ImageView.swift */,
 				0CE3FD4D22AED31100B203CF /* WebImage.swift */,
 				0CBF078B22AD81D800E2A966 /* TutorialView.swift */,
@@ -187,9 +193,11 @@
 				0CE3FD4C22AEC89700B203CF /* ImageView.swift in Sources */,
 				0CA1B57D22AD5E24002A8FB8 /* TextFieldView.swift in Sources */,
 				0CA1B56A22AD58D4002A8FB8 /* ContentView.swift in Sources */,
+				0CE3FD5222AEE2A600B203CF /* NavigationButtonView.swift in Sources */,
 				0CBF078622AD6FF400E2A966 /* Tutorial.swift in Sources */,
 				0CBF078A22AD78DF00E2A966 /* Data.swift in Sources */,
 				0CBF078C22AD81D800E2A966 /* TutorialView.swift in Sources */,
+				0CE3FD5022AEDC6300B203CF /* Button.swift in Sources */,
 				0CBF078222AD654600E2A966 /* TextView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,7 +21,7 @@ struct ListView : View {
                     Text("TextField")
                 }
             }
-            .navigationBarTitle(Text("Tutorials"))
+            .navigationBarTitle(Text("SwiftUI Tutorials"))
         }
     }
 }

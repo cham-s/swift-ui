@@ -18,3 +18,12 @@ final class TutorialStorage: BindableObject {
         }
     }
 }
+
+final class NumberDataSource: BindableObject {
+    var didChange = PassthroughSubject<NumberDataSource, Never>()
+    var numbers: [Number] = numData {
+        didSet {
+            didChange.send(self)
+        }
+    }
+}

@@ -34,7 +34,9 @@ struct ListView : View {
                 NavigationButton(destination: PresentationButtonView()) {
                     Text("Presentation Button")
                 }
-                
+                NavigationButton(destination: EditButtonView()) {
+                    Text("Edit Button View")
+                }
             }
             .navigationBarTitle(Text("SwiftUI Tutorials"))
         }

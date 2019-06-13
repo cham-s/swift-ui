@@ -43,6 +43,9 @@ struct ListView : View {
                 NavigationButton(destination: DatePickerView()) {
                     Text("Date Picker")
                 }
+                NavigationButton(destination: SliderUIView) {
+                    Text("Slider")
+                }
             }
             .navigationBarTitle(Text("SwiftUI Tutorials"))
         }
